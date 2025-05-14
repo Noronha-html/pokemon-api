@@ -1,0 +1,84 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f0ff;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .container {
+    background: white;
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+  }
+  
+  .tentativa {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 0.8rem;
+    margin-bottom: 0.5rem;
+    background-color: #fff;
+  }
+  
+  .img-pokemon {
+    width: 64px;
+    height: 64px;
+  }
+  
+  .info {
+    text-align: left;
+    flex: 1;
+  }
+  
+  .nome {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  .tipos,
+  .detalhes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+  
+  .tipo {
+    padding: 0.4rem 0.7rem;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .tipo-correto { background-color: #38b000; }
+  .tipo-parcial { background-color: #ffdd00; color: black; }
+  .tipo-errado { background-color: #d00000; }
+  
+  .dado {
+    background-color: #eee;
+    border-radius: 12px;
+    padding: 0.4rem 0.7rem;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .seta-verde { color: #38b000; }
+  .seta-vermelha { color: #d00000; }
