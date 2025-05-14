@@ -9,3 +9,6 @@ Além disso, quando um pokemón é exibido, se ele nâo for o correto, o site mo
 quais informações estão certas e quais não, como o tipo do pokemón por exemplo.
 
 link do site que peguei a API: https://pokeapi.co
+
+Obs: tinha feito em uma pasta local no meu pc, aí tive que puxar os arquivos pro GitHub,
+por isso um commit único!
